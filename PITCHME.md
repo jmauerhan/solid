@@ -4,7 +4,7 @@
 
 ---
 
----?code=code/UserRegistration.oho&lang=php&title=User Registration
+---?code=code/UserRegistration.php&lang=php&title=User Registration
 
 @[1,3-6](Present code found within any repo source file.)
 @[8-18](Without ever leaving your slideshow.)
