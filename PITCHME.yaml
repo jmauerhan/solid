@@ -7,7 +7,7 @@
 theme : beige
 theme-override : assets/css/PITCHME.css
 logo : assets/image/logo.png
-highlight : beige
+highlight : solarized light
 transition : none
 published : true
 footnote : "GitPitch [ Beige ] Presentation Template"
