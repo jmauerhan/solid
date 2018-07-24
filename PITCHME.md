@@ -1,6 +1,6 @@
-# Beige
+# SOLID in Practice
 
-### A GitPitch Presentation Template
+### @jessicamauerhan | https://joind.in/talk/34870 | @PHPDet
 
 ---
 
