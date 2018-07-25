@@ -11,11 +11,11 @@
 }
 
 .reveal pre code {
-  font-size: 0.8em;
-  line-height: 1.2;
-  max-height: 60vh !important;
+  font-size: 0.7em;
+  line-height: 1;
+  max-height: 80vh !important;
   opacity: 0.95;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .reveal .slides section .code-presenting-annotation {
