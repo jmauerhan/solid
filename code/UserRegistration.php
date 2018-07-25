@@ -22,7 +22,10 @@ class UserRegistration
 
     private function emailIsRegistered(string $email): bool
     {
-        $dsn    = 'host='.$_ENV['DB_HOST'].' dbname='.$_ENV['DB_DB'].' password='.$_ENV['DB_PASS'].' user='.$_ENV['DB_USER'];
+        $dsn    = 'host='.$_ENV['DB_HOST'].
+            ' dbname='.$_ENV['DB_DB'].
+            ' password='.$_ENV['DB_PASS'].
+            ' user='.$_ENV['DB_USER'];
         $db     = pg_connect($dsn);
         $result = pg_query($db, "SELECT id FROM users WHERE (email='{$email}')");
         $rows   = pg_num_rows($result);
@@ -31,7 +34,10 @@ class UserRegistration
 
     private function saveUser(User $user): void
     {
-        $dsn    = 'host='.$_ENV['DB_HOST'].' dbname='.$_ENV['DB_DB'].' password='.$_ENV['DB_PASS'].' user='.$_ENV['DB_USER'];
+        $dsn = 'host='.$_ENV['DB_HOST'].
+            ' dbname='.$_ENV['DB_DB'].
+            ' password='.$_ENV['DB_PASS'].
+            ' user='.$_ENV['DB_USER'];
         $db  = pg_connect($dsn);
         pg_query($db, "INSERT INTO users(email, password) VALUES('{$user->email}', '{$user->password}')");
     }
