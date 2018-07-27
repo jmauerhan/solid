@@ -4,7 +4,7 @@
 
 ---?code=code/UserRegistration.php&lang=php
 
-@[1,3-6](Present code found within any repo source file.)
+@[7-13](Collecting User Input)
 @[8-18](Without ever leaving your slideshow.)
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
