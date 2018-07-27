@@ -4,9 +4,9 @@
 
 ---?code=code/UserRegistration.php&lang=php
 
-@[5-13,21](Collecting User Input)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+@[7-13](Collecting User Input)
+@[23-33](Validate User Input)
+@[15-18](Validate User Input)
 
 ---
 
