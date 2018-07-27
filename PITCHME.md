@@ -8,6 +8,14 @@
 @[23-33](Validate User Input)
 @[15-18](Validate User Input)
 
+Note:
+When we're creating the user registration controller we're going to start by putting those four steps in the UserRegistration class. I'm using a framework to handle all the routing, the view rendering, etc, so we can focus on those four steps from our business logic.
+
+So we'll typically start by creating that register action method, which will accept the Request and handle it, and probably return a Response. 
+
+Collecting the user input is probably pretty easy with our Request object, and we'll throw that data into a User object. 
+
+Before we can do that though we should ensure the data is even there. So if it's not, we'll return a response with an error.
 ---
 
 @title[JavaScript Block]
